@@ -1,0 +1,20 @@
+.checkBoxContainer_img {
+  width: 1.5em;
+}
+.checkBoxContainer {
+  display: flex;
+  margin-top: 0.4em;
+}
+
+.checkBoxContainer_label {
+  color: #30302e;
+  font-size: 1.2em;
+}
+
+.checkBoxContainer_input {
+  cursor: pointer;
+  background-color: #594c3c;
+  width: 1.5em;
+  height: 1.5em;
+  border: 2px solid #888;
+}

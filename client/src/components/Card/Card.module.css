@@ -1,0 +1,37 @@
+.cardContainer {
+  width: 12em;
+  display: flex;
+  flex-direction: column;
+  background-color: #998d77;
+  box-shadow: 0 3px 5px #54443e;
+  justify-content: center;
+  align-content: space-between;
+  padding: 1.5em;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.cardContainer_img {
+  width: 100px;
+  height: 60px;
+  object-fit: cover;
+}
+.imageContainer {
+  width: 100%;
+}
+
+.cardContainer_h2 {
+  font-size: 1rem;
+  color: #30302e;
+}
+.textContainer {
+  height: 3em;
+}
+
+.cardContainer_p {
+  color: #30302e;
+}
+
+.cardContainer_link {
+  text-decoration: none;
+}

@@ -1,0 +1,68 @@
+.LandingPage {
+    /* Configurar la imagen de fondo */
+    background-image: url(../../images/pexels-mihis-alex-21014.jpg);
+    /* Ajustar el tamaño de la imagen de fondo */
+    background-size: cover;
+    /* Asegurarte de que la imagen de fondo ocupe todo el espacio visible */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Configurar el color de fondo como respaldo en caso de que la imagen no se cargue */
+    background-color: #f2f2f2; /* Cambia este color según tus preferencias */
+    /* Configurar el tamaño de la pantalla completa */
+    width: 100vw;
+    height: 100vh;
+    /* Centrar contenido vertical y horizontalmente */
+    display: flex;
+    flex-direction: column;   
+    margin: 0;
+  }
+  
+  .titleContainer_h1 {
+    color: #594c3c; /* Cambia el color del texto según tus preferencias */
+    font-size: 3rem; /* Cambia el tamaño de fuente según tus preferencias */
+    margin-bottom: 20px; /* Añade un margen inferior para separar el botón */
+  }
+  
+  .landingpage_button {
+    background-color: #54443e; /* Cambia el color del botón según tus preferencias */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top:2em;
+    font-size: 1.2rem;
+    color: #f8f4f4;
+  }
+
+  .principalContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 40vw;
+    margin-left: 5vw;
+  }
+
+  .icon{
+    width: 40px;
+    height: 40px;
+    margin:10px
+  }
+  .titleContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 5vh;
+  }
+  
+  .principalContainer_h2{
+    font-size: 2rem;
+    margin-top: 20%;
+    align-self: flex-start;
+    color: #30302e
+  }
+
+  .principalContainer_p{
+    color: #30302e;
+    font-size: 1.3rem;
+    margin-top:1em;
+    text-align: left;
+  } 

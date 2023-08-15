@@ -1,0 +1,60 @@
+.principalContainer {
+  margin-top: 3.5em;
+}
+.principalContainer_h1 {
+  color: #30302e;
+}
+.formContainer {
+  background-color: #c5ae9c;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px #30302e;
+}
+.inputContainer {
+  width: 80%;
+  flex-direction: column;
+}
+.inputContainer_label {
+  display: block;
+  width: 30%;
+  font-size: 1em;
+  text-align: left;
+  margin-left: 15%;
+  margin-top: 0.3em;
+  color: #786252;
+}
+
+.inputContainer_input {
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  padding: 0.3em;
+  margin-top: 0.3em;
+  margin-bottom: 0.5em;
+  width: 13.8em;
+}
+
+.inputContainer_select {
+  width: 13.8em;
+  font-size: 1em;
+  border-radius: 5px;
+  border: none;
+  padding: 0.3em;
+  margin-top: 0.3em;
+  margin-bottom: 0.5em;
+}
+.button {
+  background-color: #54443e; /* Cambia el color del botón según tus preferencias */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 2em;
+  font-size: 1.2rem;
+  color: #f8f4f4;
+  margin-bottom: 1em;
+}

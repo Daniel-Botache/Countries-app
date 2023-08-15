@@ -1,0 +1,50 @@
+.principalContainer {
+  margin-top: 4em;
+  display: flex;
+  flex-direction: column;
+}
+
+.principalContainer_h1 {
+  color: #30302e;
+}
+
+.detailContainer {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 2em;
+  width: 80%;
+  border-radius: 5px;
+  background-color: #c5ae9c;
+  box-shadow: 4px 4px 2px #594c3c;
+}
+.infoContainer_h1 {
+  color: #54443e;
+}
+
+.imgContainer {
+  width: 25%;
+}
+.imgContainer_img {
+  object-fit: contain;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.infoContainer_h2 {
+  color: #30302e;
+  font-size: 1.2em;
+}
+
+span {
+  color: #54443e;
+}
+.activitiesContainer_h2 {
+  color: #54443e;
+}

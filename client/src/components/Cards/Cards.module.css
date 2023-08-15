@@ -1,0 +1,26 @@
+body {
+  background-image: url(../../images/pexels-mihis-alex-21014.jpg);
+  background-size: contain;
+}
+
+.cardsContainer {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  padding-top: 7rem;
+}
+
+.pagContainer {
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+}
+
+.pagContainer_button {
+  background-color: #594c3c;
+  border: none;
+  color: #f8f4f4;
+  font-size: 1.2em;
+  margin-left: 0.2em;
+  border-radius: 5px;
+  width: 2em;
+}
