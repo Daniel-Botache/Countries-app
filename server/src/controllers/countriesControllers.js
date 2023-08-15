@@ -45,7 +45,7 @@ const countriesFromDB = async () => {
       {
         model: Activity,
         as: "activities",
-        attributes: ["name"],
+        attributes: ["name", "id", "season", "difficulty", "duration"],
         through: { attributes: [] },
       },
     ],
@@ -62,7 +62,7 @@ const searchById = async (id) => {
       {
         model: Activity,
         as: "activities",
-        attributes: ["name"],
+        attributes: ["name", "id", "season", "difficulty", "duration"],
         through: { attributes: [] },
       },
     ],
@@ -83,7 +83,7 @@ const getCountryByName = async (lowerCaseName) => {
       {
         model: Activity,
         as: "activities",
-        attributes: ["name"],
+        attributes: ["name", "id", "season", "difficulty", "duration"],
         through: { attributes: [] },
       },
     ],

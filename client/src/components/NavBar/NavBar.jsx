@@ -21,13 +21,15 @@ export default function NavBar() {
         Activities
       </Link>
       {location.pathname === "/home" && <SearchBar />}
-      <button className={style.navBarContainer_button}>
-        <img
-          src="https://w7.pngwing.com/pngs/253/714/png-transparent-logout-heroicons-ui-icon.png"
-          alt="Logout"
-          className={style.navBarContainer_img}
-        />
-      </button>
+      <Link to="/" className={style.navBarContainer_link}>
+        <button className={style.navBarContainer_button}>
+          <img
+            src="https://w7.pngwing.com/pngs/253/714/png-transparent-logout-heroicons-ui-icon.png"
+            alt="Logout"
+            className={style.navBarContainer_img}
+          />
+        </button>
+      </Link>
     </div>
   );
 }

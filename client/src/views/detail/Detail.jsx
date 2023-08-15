@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getCountryDetail } from "../../redux/actions";
 import style from "./Detail.module.css";
+import Activities from "../../components/Activities/Activities";
 
 export default function Detail() {
   const countryDetail = useSelector((state) => state.countryDetail);
@@ -46,12 +47,10 @@ export default function Detail() {
         </div>
       </div>
       <div className={style.activitiesContainer}>
-        <h2 className={style.activitiesContainer_h2}>
+        <h1 className={style.activitiesContainer_h2}>
           Activities to do:{" "}
-          {countryDetail?.activities?.map((item) => (
-            <p key={item.name}>{item.name}</p>
-          ))}
-        </h2>
+          <Activities activities={countryDetail?.activities} />
+        </h1>
       </div>
     </div>
   );

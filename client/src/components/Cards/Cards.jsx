@@ -8,12 +8,10 @@ export default function Cards({ allCountries }) {
   const [currentPage, setCurrentPage] = useState(1);
   const cardsPerPage = 10;
 
-  // Cálculo del índice inicial y final de las tarjetas a mostrar en la página actual
   const indexOfLastCard = currentPage * cardsPerPage;
   const indexOfFirstCard = indexOfLastCard - cardsPerPage;
   const currentCards = allCountries.slice(indexOfFirstCard, indexOfLastCard);
 
-  // Función para cambiar de página
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
   };
@@ -23,7 +21,6 @@ export default function Cards({ allCountries }) {
     }
   };
 
-  // Función para retroceder a la página anterior
   const handlePreviousPage = () => {
     if (currentPage > 1) {
       setCurrentPage(currentPage - 1);

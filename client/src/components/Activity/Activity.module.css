@@ -1,0 +1,45 @@
+.principalContainer {
+  background-color: #c5ae9c;
+  border-radius: 5px;
+  padding: 1em;
+  box-shadow: 4px 4px 2px #594c3c;
+}
+.principalContainer_h1 {
+  font-size: 1em;
+  text-align: left;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 2em;
+}
+
+.infoContainer_h2 {
+  font-size: 1rem;
+  color: #30302e;
+}
+
+.infoContainer_span {
+  font-size: 1rem;
+}
+
+.activeCircle {
+  background-color: #30302e;
+}
+.circle {
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  border: black 1px solid;
+}
+
+.inactiveCircle {
+  background-color: #c5ae9c;
+}
+
+.circlesContainer {
+  display: flex;
+  gap: 10px;
+}
